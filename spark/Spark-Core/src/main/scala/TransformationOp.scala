@@ -11,6 +11,7 @@ object TransformationOp {
         iter
       }).collect()
       .foreach(item => println(item))
+    mapPartitionsWithIndex()
   }
 
   def mapPartitionsWithIndex(): Unit = {
